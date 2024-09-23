@@ -4,7 +4,7 @@
 }
 
 #mainPushButton{
-    font : 15px 'Segoe UI';
+    font : 15px 'Arial';
     font-weight: bold;
     height: 35px;
     background-color: rgb(103, 81, 166);
@@ -24,7 +24,7 @@
 }
 
 #subPushButton{
-    font : 15px 'Segoe UI';
+    font : 15px 'Arial';
     font-weight: bold;
     height: 35px;
     background-color: rgb(235, 225, 253);
@@ -45,7 +45,7 @@
 TitleLabel{
     background-color: transparent;
     color: white;
-    font : 45px 'Segoe UI';
+    font : 45px 'Arial';
     font-weight: bold;
     qproperty-alignment: AlignCenter;
 }

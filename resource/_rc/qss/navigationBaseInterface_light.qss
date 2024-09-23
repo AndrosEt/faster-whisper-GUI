@@ -24,7 +24,7 @@ ToolBar > CaptionLabel {
 ToolBar > TitleLabel {
     background-color: transparent;
     color: black;
-    font : 30px 'Segoe UI';
+    font : 30px 'Arial';
     font-weight: bold;
     qproperty-alignment: AlignLeft;
 }

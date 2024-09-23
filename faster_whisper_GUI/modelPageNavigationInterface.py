@@ -84,7 +84,7 @@ class ModelNavigationInterface(NavigationBaseInterface):
         self.button_model_lodar.setText(self.__tr("加载模型"))
         self.button_model_lodar.setFixedHeight(65)
         self.button_model_lodar.setFixedWidth(195)
-        font = QFont("Segoe UI", 15)
+        font = QFont("Arial", 15)
         font.setBold(True)
 
         self.button_model_lodar.setFont(font)

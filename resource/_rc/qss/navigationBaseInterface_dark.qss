@@ -24,13 +24,13 @@ ToolBar > CaptionLabel {
 ToolBar > TitleLabel {
     background-color: transparent;
     color: white;
-    font : 30px 'Segoe UI';
+    font : 30px 'Arial';
     font-weight: bold;
     qproperty-alignment: AlignLeft;
 }
 
 /* .QLabel{
-    font : 15px 'Segoe UI';
+    font : 15px 'Arial';
     color: white;
     border-radius : 8px;
 } */

@@ -1,5 +1,5 @@
 #buttonModelLodar{
-    font : 'Segoe UI';
+    font : 'Arial';
     font-size: 22px;
     font-weight: bold;
     background-color:rgb(0, 180, 230);

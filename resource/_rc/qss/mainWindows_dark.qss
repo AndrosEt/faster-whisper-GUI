@@ -3,7 +3,7 @@
 }
 
 QLabel{
-        font : 15px 'Segoe UI';
+        font : 15px 'Arial';
         color: white;
         border-radius : 8px;
         background-color : rgb(125,125,125);

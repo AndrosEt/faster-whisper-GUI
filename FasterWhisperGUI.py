@@ -7,11 +7,15 @@ BASE_DIR = os.path.dirname(os.path.abspath( __file__))
 
 # 修复环境变量 - python 文件夹
 python_dir = ";" + os.path.join(BASE_DIR, 'python')
-os.environ["path"] += python_dir
+# os.environ["path"] += python_dir
+path_separator = os.pathsep
+os.environ["PATH"] += path_separator + python_dir
 
 # 修复环境变量 - bin 文件夹
 bin_dir = ";" + os.path.join(BASE_DIR, 'bin')
-os.environ["path"] += bin_dir
+# os.environ["path"] += bin_dir
+bin_separator = os.pathsep
+os.environ["PATH"] += bin_separator + bin_dir
 
 from PySide6.QtCore import Qt
 from PySide6.QtGui import (QFont, QPixmap)
@@ -37,7 +41,7 @@ splash = MySplashScreen()
 splash.setPixmap(QPixmap(r":/resource/Image/SplashScreen_0.4.0.png")) 
 
 # 设置字体
-splash.setFont(QFont('Segoe UI', 15))
+splash.setFont(QFont('Arial', 15))
 
 #初始文本
 splash.showMessage("Loading...", Qt.AlignmentFlag.AlignCenter | Qt.AlignmentFlag.AlignBottom, Qt.white)
@@ -105,7 +109,9 @@ if __name__ == "__main__":
     
     # 修复环境变量 - ffmpeg
     ffmpeg_dir = ";" + os.path.join(BASE_DIR, 'ffmpeg')
-    os.environ["path"] += ffmpeg_dir
+    # os.environ["path"] += ffmpeg_dir
+    ffmpeg_separator = os.pathsep
+    os.environ["PATH"] += ffmpeg_separator + ffmpeg_dir
 
     # os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
 

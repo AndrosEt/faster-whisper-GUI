@@ -142,7 +142,7 @@ r: rgb(43, 43, 4\
 radius : 25px;\x0d\x0a\
 }\x0d\x0a\x0d\x0a#mainPushBu\
 tton{\x0d\x0a    font \
-: 15px 'Segoe UI\
+: 15px 'Arial\
 ';\x0d\x0a    font-wei\
 ght: bold;\x0d\x0a    \
 height: 35px;\x0d\x0a \
@@ -192,7 +192,7 @@ kground-color: t\
 ransparent;\x0d\x0a   \
  color: white;\x0d\x0a\
     font : 45px \
-'Segoe UI';\x0d\x0a   \
+'Arial';\x0d\x0a   \
  font-weight: bo\
 ld;\x0d\x0a    qproper\
 ty-alignment: Al\
@@ -242,7 +242,7 @@ eft:2px;\x0d\x0a    pa\
 dding-top:2px;\x0d\x0a\
 }\x0d\x0a\x0d\x0a#subPushBut\
 ton{\x0d\x0a    font :\
- 15px 'Segoe UI'\
+ 15px 'Arial'\
 ;\x0d\x0a    font-weig\
 ht: bold;\x0d\x0a    h\
 eight: 35px;\x0d\x0a  \
@@ -269,7 +269,7 @@ TitleLabel{\x0d\x0a   \
 r: transparent;\x0d\
 \x0a    color: blac\
 k;\x0d\x0a    font : 4\
-5px 'Segoe UI';\x0d\
+5px 'Arial';\x0d\
 \x0a    font-weight\
 : bold;\x0d\x0a    qpr\
 operty-alignment\
@@ -436,7 +436,7 @@ FramlessMainWin{\
              }\x0d\x0a\
 \x0d\x0a.QLabel{\x0d\x0a    \
     font : 15px \
-'Segoe UI';\x0d\x0a   \
+'Arial';\x0d\x0a   \
      background-\
 color : rgb(230,\
 233,239);\x0d\x0a     \
@@ -533,7 +533,7 @@ ground-color: tr\
 ansparent;\x0d\x0a    \
 color: white;\x0d\x0a \
    font : 30px '\
-Segoe UI';\x0d\x0a    \
+Arial';\x0d\x0a    \
 font-weight: bol\
 d;\x0d\x0a    qpropert\
 y-alignment: Ali\
@@ -575,7 +575,7 @@ ground-color: tr\
 ansparent;\x0d\x0a    \
 color: black;\x0d\x0a \
    font : 30px '\
-Segoe UI';\x0d\x0a    \
+Arial';\x0d\x0a    \
 font-weight: bol\
 d;\x0d\x0a    qpropert\
 y-alignment: Ali\
