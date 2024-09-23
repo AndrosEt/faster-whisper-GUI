@@ -30,7 +30,7 @@
     "setting": {
         "saveConfig": true,
         "autoLoadModel": false,
-        "language": 2,
+        "language": 0,
         "huggingface_user_token": "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",
         "autoGoToOutputPage": 2,
         "autoClearTempFiles": true,
